@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/303e656947.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <section class="navigation">
+            <div class="left">
+                <img src="pics/logo.png" alt="Logo">
+                <img src="pics/motto.png" alt="Slogan">
+                 
+            </div>
+            <div class="right">
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" >About us</a>
+                    <a href="menu.html">Menues</a>
+                    <a href="signIn.html" class="active">Order catering</a>
+                    <a href="contacts.html">Contact</a>
+                    
+                <!-- the line bellow adds Hamburger Menu. The link with class="icon" is used to open and close the topnav on small screens -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                  </div>
+                    
+            </div>
+        </section>   
+
+        <section>
+            <div>
+                <img class="banner" src="pics/banner.jpg" alt="This is the header">
+            </div>
+            <div class="slogan">Best cattering ever</div>
+        </section>
+    </header>
+
+<h1>Input your data:</h1>
+
+<fieldset>
+<div class="signUp">
+    <label>Name</label><input class="inputField" type="text">
+   <br>
+    <label>Password</label><input class="inputField" type="password">
+    <br>
+    <label>Email</label><input class="inputField" type="email">
+    <br>
+    <label>Phone Number</label><input class="inputField" type="tel">
+    <br>
+    <input type="checkbox" id="conditions" name="conditions" value="Yes">
+    <label for="conditions"> I have read and understood terma and conditions</label><br><br>
+    <button>Sign Up!</button>
+</div>
+
+
+</fieldset>
+    <footer>
+        <p>All rights reserved 2024</p>
+        <!-- <p>Some Font Awesome icons:</p>
+        <p>
+            <i class="fas fa-band-aid"></i>
+            <i class="fas fa-cat"></i>
+            <i class="fas fa-dragon"></i>
+            <i class="far fa-clock"></i>
+            <i class="fas fa-clock"></i>
+        </p> -->
+    </footer>
+</body>
+</html>
